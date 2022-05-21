@@ -8,7 +8,7 @@ public class Median2SortedArray {
         int n2 = nums2.length;
         int[] arr3 = new int[n1 + n2];
         mergeArrys(nums1, nums2, n1, n2, arr3);
-        int mid = (n1 + n2) / 2;
+        int mid = (n1 + n2) / 2; 
         if((n1 + n2) % 2 == 0){
             return (arr3[mid] + arr3[mid - 1]) / 2.0;
         }else{
